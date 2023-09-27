@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/pagebkg"
+    tools:context=".main_menu"
+    >
+    <EditText
+        android:id="@+id/games"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="30dp"
+        android:text="@string/games"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:textSize="29dp"
+        android:textColor="@color/white"
+        app:layout_constraintTop_toTopOf="parent"
+
+        />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="300dp"
+        android:layout_height="550dp"
+        android:layout_margin="30dp"
+        app:cardCornerRadius="30dp"
+        app:cardElevation="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+
+        >
+    <Button
+        android:id="@+id/clock_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/Widget.AppCompat.Button.Borderless.Colored"
+
+        android:textColor="@color/lavender"
+        android:textStyle="bold"
+        android:layout_marginTop="5dp"
+        android:text="@string/clock_text"
+        android:onClick="clock_view"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/season_button"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginTop="55dp"
+        android:textStyle="bold"
+        android:textColor="@color/lavender"
+        style="@style/Widget.AppCompat.Button.Borderless.Colored"
+        android:text="@string/season_text"
+        android:onClick="season_view"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/clock_button" />
+
+    <Button
+        android:id="@+id/days_button"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginTop="105dp"
+        android:textStyle="bold"
+        android:textColor="@color/lavender"
+        style="@style/Widget.AppCompat.Button.Borderless.Colored"
+        android:text="@string/days_text"
+        android:onClick="days_view"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/season_button" />
+
+    <Button
+        android:id="@+id/months_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="155dp"
+        android:textColor="@color/lavender"
+        android:textStyle="bold"
+        style="@style/Widget.AppCompat.Button.Borderless.Colored"
+        android:text="@string/months_text"
+        android:onClick="months_view"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/days_button" />
+
+    <Button
+        android:id="@+id/remember_digit_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="205dp"
+        android:textStyle="bold"
+        android:textColor="@color/lavender"
+        style="@style/Widget.AppCompat.Button.Borderless.Colored"
+        android:text="@string/remember_digit_text"
+        android:onClick="remember_digit_view"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/months_button" />
+
+    <Button
+        android:id="@+id/reverse_remember_digit_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="255dp"
+        android:textStyle="bold"
+        android:textColor="@color/lavender"
+        style="@style/Widget.AppCompat.Button.Borderless.Colored"
+        android:text="@string/reverse_remember_digit_text"
+        android:onClick="reverse_remember_digit_view"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/remember_digit_button" />
+
+    <Button
+        android:id="@+id/spelling_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="305dp"
+        android:textStyle="bold"
+        android:textColor="@color/lavender"
+        style="@style/Widget.AppCompat.Button.Borderless.Colored"
+        android:text="@string/spelling_activity_text"
+        android:onClick="spelling_view"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/reverse_remember_digit_button" />
+
+    <Button
+        android:id="@+id/directions_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="355dp"
+        android:textStyle="bold"
+        android:textColor="@color/lavender"
+        style="@style/Widget.AppCompat.Button.Borderless.Colored"
+        android:text="@string/direction_button_text"
+        android:onClick="directions_view"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/spelling_button" />
+
+        <Button
+        android:id="@+id/multiplication_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="405dp"
+        android:textStyle="bold"
+        android:textColor="@color/lavender"
+        style="@style/Widget.AppCompat.Button.Borderless.Colored"
+        android:text="@string/multiply_text"
+        android:onClick="multiplication_view"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/reverse_remember_digit_button" />
+        <Button
+            android:id="@+id/similar_picture_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="455dp"
+            android:textStyle="bold"
+            android:textColor="@color/lavender"
+            style="@style/Widget.AppCompat.Button.Borderless.Colored"
+            android:text="@string/similar_picture"
+            android:onClick="similar_picture_view"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/reverse_remember_digit_button" />
+        <Button
+            android:id="@+id/moving_ball_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="505dp"
+            android:textStyle="bold"
+            android:textColor="@color/lavender"
+            style="@style/Widget.AppCompat.Button.Borderless.Colored"
+            android:text="@string/moving_Ball"
+            android:onClick="moving_ball_view"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/reverse_remember_digit_button" />
+    </androidx.cardview.widget.CardView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

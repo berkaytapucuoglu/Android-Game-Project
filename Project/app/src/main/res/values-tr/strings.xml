@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Proje</string>
+    <string name="signup">Kayıt Ol</string>
+
+    <string name="signup_email">E-mail</string>
+    <string name="signup_username">Takma Ad</string>
+    <string name="signup_password">Şifre</string>
+    <string name="multiply_text">Çarpma İşlemi</string>
+    <string name="log_n">Giriş Yap</string>
+    <string name="clock_text">Saat</string>
+    <string name="analog_clock_text">Analog Saat</string>
+    <string name="digital_clock_text">Dijital Saat</string>
+    <string name="season_text">Mevsimler</string>
+    <string name="days_text">Günler</string>
+    <string name="next_day_text">Ertesi Gün</string>
+    <string name="months_text">Aylar</string>
+    <string name="next_month_text">Ertesi Ay</string>
+    <string name="remember_digit_text">Sayı Oyununu Hatırla</string>
+    <string name="next_button_text">Sonraki</string>
+    <string name="check_button_text">Kontrol et</string>
+    <string name="description_text">Lütfen ekrandaki numaraları ezberleyin ve sonra sonrakine tıklayın</string>
+    <string name="description2_text">Lütfen hatırladığınız numaraları girin ve kontrol edin</string>
+    <string name="digits_hint">Numaraları girin</string>
+    <string name="reverse_description_text">Lütfen ekrandaki numaraları tersten ezberleyin ve sonra sonrakine tıklayın</string>
+    <string name="reverse_description2_text">Lütfen hatırladığınız ters numaraları girin ve kontrol edin</string>
+    <string name="reverse_remember_digit_text">Ters numara hatırlama</string>
+    <string name="spelling_activity_text">Yazım</string>
+    <string name="spelling_next_button_text">Sonraki Kelime</string>
+    <string name="direction_button_text">Yönler</string>
+    <string name="direction_hint">Lütfen ekrandaki kedinin yönünü girin</string>
+
+
+    <string name="january_name">Ocak</string>
+    <string name="february_name">Şubat</string>
+    <string name="march_name">Mart</string>
+    <string name="april_name">Nisan</string>
+    <string name="may_name">Mayıs</string>
+    <string name="june_name">Haziran</string>
+    <string name="july_name">Temmuz</string>
+    <string name="august_name">Ağustos</string>
+    <string name="september_name">Eylül</string>
+    <string name="october_name">Ekim</string>
+    <string name="december_name">Kasım</string>
+    <string name="november_name">Aralık</string>
+
+
+    <string name="days_hint">lÜTFEN sonrakine tıklayın ve günleri görün.</string>
+
+    <string name="winter_text">Kış</string>
+    <string name="spring_text">İlkbahar</string>
+    <string name="summer_text">Yaz</string>
+    <string name="autumn_text">Sonbahar</string>
+
+    <string name="winter_description">Kış Zamanı</string>
+    <string name="spring_description">İlkbahar Zamanı</string>
+    <string name="summer_description">Yaz Zamanı</string>
+    <string name="autumn_description">Sonbahar Zamanı</string>
+    <string name="already_an_user_login">Zaten Üye Misin? Giriş Yap</string>
+    <string name="sign_up">Kayıt ol</string>
+    <string name="sign_upüst">KAYIT OL</string>
+    <string name="result_text">Sonuç</string>
+    <string name="number2_text">Numara 2</string>
+    <string name="number1_text">Numara 1</string>
+    <string name="picture_description">Lütfen yukarıda gördüğünüz fotoğrafa en yakın fotoğrafı seçin</string>
+    <string name="next_picture_text">Sonraki Fotoğraf</string>
+    <string name="similar_picture">Benzer Fotoğraf</string>
+    <string name="moving_Ball">Hareket Eden Top</string>
+    <string name="signup_name">Kayıt Ol</string>
+    <string name="games">OYUNLAR</string>
+    <string name="clock_txt">Ekranda gördüğünüz saati işaretleyin</string>
+</resources>

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SeasonActivity"
+    android:background="@drawable/pagebkg">
+
+    <Button
+        android:id="@+id/winter_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="32dp"
+        android:backgroundTint="@android:color/darker_gray"
+        android:text="@string/winter_text"
+        android:textColor="@android:color/holo_blue_bright"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/spring_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="150dp"
+        android:backgroundTint="@android:color/holo_green_light"
+        android:text="@string/spring_text"
+        android:textColor="@color/purple_500"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/winter_button" />
+
+    <Button
+        android:id="@+id/summer_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="150dp"
+        android:backgroundTint="@android:color/holo_orange_dark"
+        android:text="@string/summer_text"
+        android:textColor="@color/white"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/spring_button" />
+
+    <Button
+        android:id="@+id/autumn_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="150dp"
+        android:backgroundTint="@android:color/holo_red_dark"
+        android:text="@string/autumn_text"
+        android:textColor="@android:color/darker_gray"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/summer_button" />
+
+    <ImageView
+        android:id="@+id/autumn"
+        android:layout_width="200dp"
+        android:layout_height="150dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/autumn_button"
+        app:srcCompat="@drawable/animation_200_lhrssu65"
+        android:contentDescription="@string/autumn_description" />
+
+    <ImageView
+        android:id="@+id/spring"
+        android:layout_width="200dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="24dp"
+        app:layout_constraintBottom_toBottomOf="@+id/spring_button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/spring_button"
+        app:layout_constraintTop_toTopOf="@+id/spring_button"
+        app:srcCompat="@drawable/animation_200_lhrtfw8u"
+        android:contentDescription="@string/spring_description" />
+
+    <ImageView
+        android:id="@+id/summer"
+        android:layout_width="200dp"
+        android:layout_height="150dp"
+        app:layout_constraintBottom_toBottomOf="@+id/summer_button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/summer_button"
+        app:layout_constraintTop_toTopOf="@+id/summer_button"
+        app:srcCompat="@drawable/animation_200_lht92jwg"
+        android:contentDescription="@string/summer_description" />
+
+    <ImageView
+        android:id="@+id/winter"
+        android:layout_width="200dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.523"
+        app:layout_constraintStart_toEndOf="@+id/winter_button"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/animation_200_lht9nvk1"
+        android:contentDescription="@string/winter_description" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
